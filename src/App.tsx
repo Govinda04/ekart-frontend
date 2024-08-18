@@ -31,7 +31,7 @@ const App = () => {
   return (
     <>
       <div style={{ border: "1px solid red" }}>
-        <RouterProvider router={router} count={"count"} />
+        <RouterProvider router={router} />
       </div>
     </>
   );
