@@ -5,11 +5,12 @@ import "./App.css";
 
 import { createBrowserRouter, Link, RouterProvider } from "react-router-dom";
 import Hello from "./components/Hello";
+import HomePage from "./pages/HomePage";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Hello />,
+    element: <HomePage />,
   },
   {
     path: "/:name/:userId",
@@ -30,7 +31,7 @@ const App = () => {
 
   return (
     <>
-      <div style={{ border: "1px solid red" }}>
+      <div>
         <RouterProvider router={router} />
       </div>
     </>

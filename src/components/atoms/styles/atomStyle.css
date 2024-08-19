@@ -1,0 +1,17 @@
+.logo-container {
+  /* height: 30px;
+  width: 30px; */
+  border-radius: 50%;
+  overflow: hidden;
+  /* border: 1px solid red; */
+  padding: 10px;
+}
+
+.ekart-nav-btn {
+  background-color: #f2f0ea;
+  height: 30px;
+  padding: 5px 25px;
+  border: 0px solid black;
+  border-radius: 5px;
+  margin: 0px 10px;
+}
