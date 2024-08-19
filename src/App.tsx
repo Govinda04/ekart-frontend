@@ -4,7 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 import { createBrowserRouter, Link, RouterProvider } from "react-router-dom";
-import Hello from "./componets/Hello";
+import Hello from "./components/Hello";
 
 const router = createBrowserRouter([
   {
